@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Titillium+Web:wght@300&display=swap');
+body{
+    margin: 0;
+    font-size: 16px;
+}
+.fw{
+    width: 100%;
+}
+.hw{
+    width: 50%;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+}
+.par{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+}
+.margg{
+    margin: 0.2em 0;
+}
+.margl{
+    margin-left: 1em!important;
+}
+.margr{
+    margin-right: 1em!important;
+}
+.margt{
+    margin-top: 1em!important;
+}
+.margb{
+    margin-bottom: 1em!important;
+}
+.center{
+    text-align: center;
+    display: block;
+}
+.centerimg{
+    margin: 0 auto;
+}
+.col4{
+    display: grid;
+    gap: 2em;
+    grid-auto-flow: dense;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));
+}
+.col3{
+    display: grid;
+    gap: 4em;
+    grid-auto-flow: dense;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+}
+.col2{
+    display: grid;
+    gap: 6em;
+    grid-auto-flow: dense;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.round{
+    border-radius: 25px;
+}
+.sround{
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border-color: transparent;
+    padding: 2em;
+}
+@media(max-width: 665px){
+    .col4, .col3, .col2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 485px){
+    body{
+        font-size: 14px;
+    }
+}
+@media(max-width: 375px){
+    body{
+        font-size: 12px;
+    }
+}
+@media(max-width: 330px){
+    body{
+        font-size: 11px;
+    }
+}
+@media(max-width: 300px){
+    body{
+        font-size: 10px;
+    }
+}
+@media(max-width: 275px){
+    body{
+        font-size: 9px;
+    }
+}
