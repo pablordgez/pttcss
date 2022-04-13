@@ -7,8 +7,8 @@ CSS template, with a bunch of predefined classes to make web developing simpler.
 Clases/classes:
 
 fw -> El elemento ocupará todo el ancho de su continente / The element will take up all the width of its container  
-hw -> El elemento ocupará la mitad del ancho de su continente / The element will take up half the width of its container
-qw -> El elemento ocupará la cuarta parte del ancho de su continente / The element will take up a quarter of the width of its container
+hw -> El elemento ocupará la mitad del ancho de su continente / The element will take up half the width of its container  
+qw -> El elemento ocupará la cuarta parte del ancho de su continente / The element will take up a quarter of the width of its container  
 title -> Fuente y tamaño de título / Title font and size  
 par -> Fuente y tamaño de párrafo / Paragraph font and size  
 margg -> Pequeño margen arriba y abajo / Small margin above and below  
