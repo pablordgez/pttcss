@@ -10,6 +10,9 @@ body{
 .hw{
     width: 50%;
 }
+.qw{
+    width: 25%;
+}
 .title{
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
