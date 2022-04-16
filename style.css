@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500,700&display=swap');
 body{
     margin: 0;
     font-size: 16px;
@@ -14,7 +15,8 @@ body{
     width: 25%;
 }
 .title{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 3em;
 }
 .par{
